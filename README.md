@@ -20,3 +20,20 @@ The "annoying" mode, which is meant to tell me that I shouldn't be at the desk. 
 time bounces around, draing multicolored lines, and the LEDs are flashing.
 
 ![](https://github.com/rogerdahl/m24sr-discovery-egg-timer/blob/master/images/annoying.jpg)
+
+The project compiles on Linux using the GCC open source toolchain and is flashed
+to the board using Texane's stlink software: https://github.com/texane/stlink.
+
+RTC interrupts are used for keeping track of the time. The joystick buttons can
+be used for adjusting the time up and down.
+
+The M24SR NFC chip is not in use.
+
+This project is loosely based on the following project on GitHub:
+
+https://github.com/tomvdb/stm32l1-discovery-basic-template
+
+See the instructions there on how to set up an open source development
+environment on Linux. When things are set up properly, build and flash with:
+
+make burn
