@@ -1,0 +1,5 @@
+--cpu Cortex-M3 ".\obj\main.o" ".\obj\menu.o" ".\obj\hw_config.o" ".\obj\stm32f10x_it.o" ".\obj\drv_i2c_m24sr.o" ".\obj\drv_m24sr.o" ".\obj\lib_m24sr.o" ".\obj\lib_tagtype4.o" ".\obj\lib_ndef_uri.o" ".\obj\lib_ndef_sms.o" ".\obj\lib_ndef_email.o" ".\obj\lib_ndef_vcard.o" ".\obj\lib_ndef_geo.o" ".\obj\lib_ndef_myapp.o" ".\obj\lib_ndef_aar.o" ".\obj\lib_ndef.o" ".\obj\lib_iso7816_password.o" ".\obj\lib_stproprietary_feature.o" ".\obj\misc.o" ".\obj\stm32f10x_exti.o" ".\obj\stm32f10x_flash.o" ".\obj\stm32f10x_gpio.o" ".\obj\stm32f10x_i2c.o" ".\obj\stm32f10x_rcc.o" ".\obj\stm32f10x_rtc.o" ".\obj\stm32f10x_spi.o" ".\obj\stm32f10x_tim.o" ".\obj\stm32f10x_usart.o" ".\obj\drv_led.o" ".\obj\drv_lcdspi_ili9341.o" ".\obj\drv_bluetooth.o" ".\obj\startup_stm32f10x_xl.o" ".\obj\core_cm3.o" ".\obj\system_stm32f10x.o" 
+--library_type=microlib --strict --scatter ".\Obj\M24SR_DISCOVERY_MB1138.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\List\M24SR_DISCOVERY_MB1138.map" -o .\Obj\M24SR_DISCOVERY_MB1138.axf
